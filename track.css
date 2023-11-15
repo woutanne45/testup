@@ -1,0 +1,20 @@
+.mnm-modalopen {
+    overflow: hidden
+}
+
+.mnm-modalopen .modal {
+    overflow-x: hidden;
+    overflow-y: auto
+}
+
+.mask-loading {
+    background-color: #f9f8f8;
+    opacity: .6;
+    transition: opacity .5s;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 90
+}

